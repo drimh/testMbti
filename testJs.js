@@ -48,7 +48,7 @@ function next(){
         var str="";
         ($("#EI").val()<1) ? str+="I" : str+="E";
         ($("#SN").val()<1) ? str+="S" : str+="N";
-        ($("#FT").val()<1) ? str+="T" : str+="F";
+        ($("#TF").val()<1) ? str+="T" : str+="F";
         ($("#JP").val()<1) ? str+="J" : str+="P";
 
         $("#mbti").html(result[str]["mbti"]);
